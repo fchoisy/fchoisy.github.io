@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="res/profil-favicon.jpeg" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="Floris Choisy">
+    <meta name="description"
+        content="I am a computer engineering student passionate about software development, video editing and computer graphics.">
+    <title>Floris Choisy</title>
+</head>
+
+<body>
+    <header>
+        <img id="profile" src="res/profil-rognee-1.jpg" alt="Profile picture">
+        <div id="brief">
+            <div id="brief-text">
+                <h2>Floris Choisy</h2>
+                <h1>Computer engineering student</h1>
+            </div>
+            <button onclick="document.getElementById('contact-info').classList.toggle('hidden');" class="button">Contact
+                me</button>
+        </div>
+    </header>
+    <section id="contact-info" class="slider hidden">
+        <h3>Contact information</h3>
+        <span
+            id="email">&#102;&#108;&#111;&#114;&#105;&#115;&#046;&#099;&#104;&#111;&#105;&#115;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;<br><br></span>
+        <span id="phone">+33 7 81 41 85 01<br><br></span>
+        <span id="address">
+            206 Chemin de Montclergeat,<br>
+            26310 Recoubeau-Jansac,<br>
+            France<br><br>
+        </span>
+    </section>
+    <main>
+        <section id="education">
+            <h3>Education</h3>
+            <ul>
+                <li><span class="date">Mar-Jul 2020</span><span class="location">University of Buenos Aires,
+                        Argentina</span>
+                    <span class="duration">1 semester</span><br>
+                    <span class="description"><strong>(Cancelled due to COVID-19)</strong> Faculty of Engineering -
+                        Department of computer science</span></li>
+                <li><span class="date">2018-2020</span><span class="location"></span>Bordeaux Graduate School of
+                    Engineering
+                    <span class="duration">3 semesters</span><br>
+                    <span class="description">Ranked <strong>5th/96</strong> - Working towards a <strong>5-year
+                            computer science degree</strong></span></li>
+                <li><span class="date">2016-2017</span><span class="location"></span>Grenoble Institute of
+                    Technology</span>
+                    <span class="duration">4 semesters</span><br>
+                    <span class="description"><strong>Intensive</strong> math and physics course</li>
+                <li><span class="date-location">2016 – Lycée du Diois, Die, France</span><br>
+                    <span class="description">Baccalauréat S, equivalent to High School Diploma, <strong>with
+                            distinction</strong></span></li>
+            </ul>
+        </section>
+        <section id="computer-skills">
+            <h3>Computer skills</h3>
+            <div class="cloud">
+                <ul>
+                    <li>
+                        <span id="c">C</span>
+                        <span id="cpp">C++</span>
+                        <span id="java">Java</span>
+                    </li>
+                    <li>
+                        <span id="python">Python</span>
+                        <span id="bash">Bash</span>
+                    </li>
+                    <li>
+                        <img src="res/terminal-icon.png" alt="Terminal icon">
+                    </li>
+                    <li>
+                        <span id="html-css">HTML/CSS</span>
+                        <span id="sql">SQL</span>
+                    </li>
+                    <li>
+                        <span id="javascript">Javascript</span>
+                        <span id="racket">Racket</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- <ul>
+                    <li>Programming: C, C++, Bash, Javascript, Python, Java</li>
+                    <li>Databases: design and implementation</li>
+                    <li>Algorithms and complexity</li>
+                    <li>Video editing: Adobe Premiere Pro</li>
+                </ul> -->
+        </section>
+        <section id="personal-interests">
+            <h3>Personal interests</h3>
+            <ul>
+                <li>President of a filmmaking club <img src="res/logo-vost.png"
+                        alt="Logo of the filmmaking club at ENSEIRB-MATMECA"></li>
+                <li>Responsibilities in a drama club <img src="res/logo-theatre-noir.png"
+                        alt="Logo of the drama club at ENSEIRB-MATMECA"></li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h3>Work and internship experience</h3>
+            <ul>
+                <li><span class="date">Jul-Aug 2019 and 2018</span>
+                    Bartender
+                    <span class="duration">6 weeks</span><br>
+                    <span class="location"><a href="https://www.drome-campings.fr/">Camping Le Couriou ****</a> -
+                        Recoubeau, France</span>
+                    <span class="description">
+                        <ul>
+                            <li>Worked in an all-english and dutch environment</li>
+                            <li>Solved customer complaints in foreign languages</li>
+                        </ul>
+                </li>
+                <li><span class="date">May-Jun 2018</span>
+                    General assistant
+                    <span class="duration">6 weeks</span><br>
+                    <span class="location">SARL CARDIS (Convenience store) - Grenoble, France</span>
+                    <span class="description">
+                        <ul>
+                            <li>Stocked shelves at a high pace</li>
+                            <li>Worked the cash register</li>
+                        </ul>
+                </li>
+            </ul>
+        </section>
+        <!-- <section id="ID">
+            <h3>Additional information</h3>
+            Born January 5th, 2000<br>
+            (20 y/o)<br>
+            <br>
+            Dutch
+            <br>
+        </section> -->
+
+        <section id='languages'>
+            <h3>Languages</h3>
+            <ul class="lang-skills">
+                <li>
+                    French
+                    <div class="skillbar">
+                        <div class="skill french">
+                            Native
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    English
+                    <div class="skillbar">
+                        <div class="skill english">
+                            IELTS 8.5/9 - C2
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    Dutch
+                    <div class="skillbar">
+                        <div class="skill dutch">
+                            C1
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    Spanish
+                    <div class="skillbar">
+                        <div class="skill spanish">
+                            B2
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    German
+                    <div class="skillbar">
+                        <div class="skill german">
+                            B1
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    Portuguese
+                    <div class="skillbar">
+                        <div class="skill portuguese">
+                            A2
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- <ul class="lang-levels">
+                    <li>
+                        <span class="lang">French</span>
+                        <img src="res/Flag_of_France.svg" alt="Flag of France">
+                        <span class="level">Native</span>
+                    </li>
+                </ul>                 -->
+            <!-- <table>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span class="level">Native</span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="res/Flag_of_the_United_Kingdom.svg" alt="Flag of the United Kingdom"> English<span class="level">C2 - IELTS 8.5</span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="res/Flag_of_the_Netherlands.svg" alt="Flag of the Netherlands"> Dutch<span class="level">C1</span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="res/Flag_of_Spain.svg" alt="Flag of Spain"> Spanish<span class="level">B2</span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="res/Flag_of_Germany.svg" alt="Flag of Germany"> German<span class="level">B1</span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="res/Flag_of_Portugal.svg" alt="Flag of Portugal"> Portuguese<span class="level">A2</span></td>
+                    </tr> -->
+            <!-- </table> -->
+        </section>
+    </main>
+    <footer>
+        <div id="links">
+            <ul>
+                <li><img src="res/logo-linkedin.png" alt="LinkedIn logo"><a
+                        href="https://linkedin.com/in/floris-choisy">linkedin.com/in/floris-choisy</a>
+                </li>
+                <li><img src="res/logo-github.png" alt="GitHub logo"><a
+                        href="https://github.com/florbis">github.com/fchoisy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
